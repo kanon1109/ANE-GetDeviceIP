@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+  <id>com.getDeviceIp.ane</id>
+  <versionNumber>1</versionNumber>
+  <platforms>
+    <platform name="Android-ARM">
+      <applicationDeployment>
+        <nativeLibrary>getdeviceip.jar</nativeLibrary>
+        <initializer>com.getDeviceIp.ane.GetDeviceIpExtension</initializer>
+        <finalizer>com.getDeviceIp.ane.GetDeviceIpExtension</finalizer>
+      </applicationDeployment>
+    </platform>
+  </platforms>
+</extension>
